@@ -1,0 +1,50 @@
+.NewsCard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card {
+        display: flex;
+        justify-content: center;
+        max-width: 532px;
+        margin: 1rem;
+        .info {
+            display: flex;
+            flex-direction: column;
+            margin: 1rem 0 0 1rem;
+            h2 {
+                font-size: 16px;
+            }
+            p {
+                font-size: 14px;
+            }
+
+            &__btn {
+                width: 234px;
+                height: 44px;
+                i {
+                    color: #ab844a;
+                }
+            }
+            &__btn:hover {
+                background-color: #2b2a2a;
+                color: white;
+            }
+        }
+        img {
+            width: 250px;
+            height: 250px;
+
+            @media screen and (max-width: 700px) {
+                width: 180px;
+                height: 200px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}

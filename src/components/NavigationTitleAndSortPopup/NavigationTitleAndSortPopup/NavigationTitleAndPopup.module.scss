@@ -1,0 +1,14 @@
+.navigation_title_sort_wrap {
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 725px) {
+    .navigation_title_sort_wrap {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+
+        .sortPopUp {
+            margin-right: 1.3rem;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.main_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    .inner_wrapper {
+        margin-top: 2rem;
+        width: 80%;
+
+        h3 {
+            margin: 0.5rem 0;
+        }
+    }
+}

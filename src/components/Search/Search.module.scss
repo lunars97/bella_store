@@ -1,0 +1,16 @@
+.Search{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  input{
+    height: 44px;
+    flex: 0 1 720px;
+    outline: none;
+    padding: 0px 10px;
+  }
+  img{
+    transform: translateX(-30px);
+    cursor: pointer;
+  }
+}

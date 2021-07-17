@@ -1,0 +1,96 @@
+.modal {
+  width: 408px;
+  margin: 0 auto;
+  display: flex;
+
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+
+  padding: 20px 0 90px 0;
+  
+   .input_cont {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+
+    input {
+      width: 344px;
+      padding: 10px;
+      margin: 15px 0;
+      border: #4e4e4e 1px soild ;
+    }
+    h5 {
+      font-size: 20px;
+      color: black;
+      font-weight: 400;
+       margin-top: 30px;
+    }
+  }
+}
+
+.inp{
+  width: 344px;
+      padding: 10px;
+      margin: 15px 0;
+      border: #4e4e4e 1px soild;
+}
+
+.btn_cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  width: 344px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #bdbdbd;
+  border: #bdbdbd;
+  color: white;
+}
+.btn_3{
+  width: 344px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #2B2A2A, ;
+  border: black;
+  color: white;
+
+  p{
+    text-align: center;
+  }
+}
+
+.btn_2 {
+  width: 136px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: none;
+  background-color: white;
+  color: gray;
+}
+
+.btn__cont{
+  display: flex;
+  justify-content: space-between;
+
+  button{
+    padding: 15px 40px;
+  }
+
+  .btn__cansel{
+    border: none;
+    background-color: white;
+    color: brown;
+  }
+
+  .btn__save{
+    background-color: #bdbdbd;
+    border: none;
+    color: white;
+  }
+}

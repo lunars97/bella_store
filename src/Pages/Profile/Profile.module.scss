@@ -1,0 +1,314 @@
+*{
+  box-sizing: border-box;
+}
+
+.profilePage {
+  width: 100%;
+}
+
+.profile {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: flex-start;
+}
+
+.h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 200px;
+  line-height: 19.9px;
+  letter-spacing: 6%;
+  font-weight: 400;
+  color: #2b2a2a;
+}
+
+.input_cont {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+
+  input {
+    width: 344px;
+    padding: 9px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid rgba(228, 228, 228, 1);
+    outline: none;
+   
+
+    input.text{
+      font-size: 14px;
+      color: black;
+      height: 44px;
+    }
+  }
+  p {
+    font-size: 14px;
+    color:#7C7C7C;
+    font-weight: 400;
+    line-height: 12,94px;
+  }
+}
+
+.btn_reg {
+  width: 344px;
+  margin-bottom: 15px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+
+  a {
+    color: white;
+  }
+}
+
+.btn__save {
+  width: 344px;
+  margin-bottom: 15px;
+  background-color: #bdbdbd;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+
+  a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.second__cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .bella1 {
+    background-image: url(../../assets/image/bellaprofile1.png);
+    margin-bottom: -20px;
+
+    width: 300px;
+    z-index: 1;
+    padding-bottom: 10px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .bella {
+    margin-left: 35px;
+    width: 220px;
+  }
+}
+
+.img2 {
+  width: 432px;
+  height: 520px;
+}
+
+.product {
+  width: 200px;
+
+  margin-left: 112px;
+  padding-top: 15px;
+  padding-bottom: 20;
+  .product1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    margin-left: 20px;
+    margin-bottom: 40px;
+
+    a {
+      color: black;
+    }
+
+    a:hover {
+      color: red;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width:1300px) {
+  .profilePage {
+    width: 100%;
+  }
+  
+  .profile {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: flex-start;
+  }
+
+  .input_cont {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+  
+    input {
+      width: 300px;
+      padding: 10px;
+      margin-bottom: 10px;
+      margin-top: 5px;
+      border-color: #e4e4e4;
+      outline: none;
+    }
+    h5 {
+      font-size: 13px;
+      color: black;
+      font-weight: 500;
+    }
+  }
+
+  .btn_reg {
+    width: 300px;
+  }
+  .btn__save{
+    width: 300px;
+  }
+
+  
+}
+
+@media (max-width:1290px) {
+  .profile {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media (max-width:1200px) {
+  .profile {
+    width: 1100px;
+    margin: 0 auto;
+  }
+}
+@media (max-width:1100px) {
+  .profile {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:1000px) {
+  .profile {
+    width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:900px) {
+  .profile {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .input_cont{
+    input{
+      width: 300px;
+    }
+  }
+  .btn_reg , .btn__save{
+    width: 300px;
+  }
+
+  .bella1 {
+    background-image: url(../../assets/image/bellaprofile1.png);
+    margin-bottom: -20px;
+
+    width: 250px;
+    z-index: 100;
+    padding-bottom: 10px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .img2 {
+    width: 380px;
+    height: 520px;
+  }
+}
+
+@media (max-width:800px) {
+  .profile {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .bella1 {
+    background-image: url(../../assets/image/bellaprofile1.png);
+    margin-bottom: -20px;
+
+    width: 180px;
+    z-index: 100;
+    padding-bottom: 10px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .img2 {
+    width: 300px;
+    height: 520px;
+  } 
+  .bella {
+    margin-left: 35px;
+    width: 100px;
+  }
+}
+
+@media (max-width:700px) {
+  .profile {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .bella1 {
+    display: none;
+  }
+  .img2 {
+  display: none;
+  } 
+  .bella {
+   display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .profile {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width:500px) {
+  .profile {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width:400px) {
+  .profile {
+    width:initial;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+
+

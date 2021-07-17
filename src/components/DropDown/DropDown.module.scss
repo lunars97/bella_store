@@ -1,0 +1,29 @@
+.DropDown{
+  display: flex;
+  flex-direction: column;
+  width: 173px;
+  border: 2px solid #b6b6b67c;
+  position: fixed;
+  z-index: 6;
+  background-color: #fff;
+  top: 61px;
+  right: 106px;
+  a, span{
+    color: #7c7c7c;
+    text-decoration: none;
+    margin: 12px 0px;
+    padding: 0px 20px;
+    cursor: pointer;
+  }
+  div{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+    margin: 5px 0px;
+  }
+}
+@media (max-width: 1120px){
+  .DropDown{
+    display: none;
+  }
+}

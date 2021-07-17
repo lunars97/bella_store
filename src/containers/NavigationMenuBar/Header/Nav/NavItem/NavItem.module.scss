@@ -1,0 +1,33 @@
+ul li {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    line-height: 1.5;
+
+    margin: 0 16px;
+    height: 64px;
+    align-items: center;
+    a {
+        font-size: 13px;
+        text-decoration: none;
+    }
+    .navLink {
+        color: #7c7c7c;
+    }
+    .tov {
+        color: black;
+        line-height: 12, 94px;
+    }
+}
+
+@media (max-width: 965px) {
+    li a {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    ul li {
+        margin: 0;
+        padding: 0;
+    }
+}

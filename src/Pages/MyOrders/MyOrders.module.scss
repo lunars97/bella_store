@@ -1,0 +1,126 @@
+.main_container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    &__text {
+        margin: 0.5rem 0;
+        span {
+            margin-left: 9.5rem;
+
+            font-size: 24px;
+        }
+    }
+    &__inner {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .card_wrapper {
+            width: 100%;
+            display: flex;
+            border-top: 1px solid rgb(180, 178, 178);
+            border-bottom: 1px solid rgb(180, 178, 178);
+            margin: 1rem 0;
+            &__all_images {
+                width: 100%;
+                margin: 0.5rem 0;
+                .all_images__order_num {
+                    display: flex;
+
+                    align-items: center;
+
+                    .order_status {
+                        padding-left: 2rem;
+                        color: #7c7c7c;
+                    }
+                }
+
+                .all_images {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    width: 100%;
+                }
+
+                &__images {
+                    width: 45%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    &__one {
+                        margin: 1rem 0;
+                        padding-right: 0.7rem;
+                        img {
+                            width: 5.6875rem;
+                            height: 8.0625rem;
+                        }
+                    }
+                    .btn {
+                        width: 5.6875rem;
+                        border: 1px solid rgb(167, 166, 166);
+                        height: 8.0625rem;
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+        .price_section_wrapper {
+            display: flex;
+            justify-content: flex-end;
+
+            .price_section {
+                color: #ab844a;
+                font-weight: 700;
+                font-size: 20px;
+                margin-top: -1rem;
+                @media screen and (max-width: 760px) {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 760px) {
+        .card_wrapper {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+            &__all_images {
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+                align-items: center;
+
+                .all_images {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                }
+                &__images {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    &__one {
+                        margin: 0.5rem 0;
+                        padding-right: 0.1rem;
+                        img {
+                            width: 5.3rem;
+                            height: 8rem;
+                        }
+                    }
+
+                    .btn {
+                        width: 5.3rem;
+                        height: 8rem;
+                    }
+                }
+            }
+        }
+    }
+}

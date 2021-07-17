@@ -1,0 +1,39 @@
+@import "../../styles//modules/variables/fonts";
+.main_container {
+    width: 100%;
+    margin: 0 auto;
+}
+.breadCrumbs {
+    width: 82%;
+    margin: 0 auto;
+
+    li:nth-child(2) {
+        color: #7c7c7c;
+    }
+
+    &__list {
+        width: 80%;
+        display: flex;
+        word-spacing: 10px;
+    }
+}
+.header {
+    width: 80%;
+    padding-top: 0.8rem;
+    display: flex;
+    margin: 0 auto;
+
+    h4 {
+        font-size: 24px;
+        font-weight: 400;
+        font-family: $font;
+        color: #000;
+    }
+}
+.collection_wrapper {
+    width: 100%;
+    padding-bottom: 2rem;
+    &__page {
+        width: 90%;
+    }
+}
